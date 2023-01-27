@@ -91,21 +91,27 @@
 <!--Related Books-->
 <section id="Books">
     <!--    show 3 books with image and title next to each other in a row-->
-    <h1 class="section-title">Related Books</h1>
+    <h1 class="section-title">Most Popular Books</h1>
     <div class="books">
         <div class="book">
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img
-                                style="width: 100%; height: 40%; border-radius: inherit"
-                                src="./assests/Book1-2.png"
-                                alt="react"
-                        />
-                        <h1 style="margin: 40px">JavaScript Guide</h1>
-                        <p style="margin: 20px">by David Flanagan</p>
-                        <p style="margin: 20px">Seventh edition</p>
-                        <p style="margin-top: 80px">Published at 2020</p>
+                        <img src="./Assets/img/Book1-2.png" alt="js" class="book-image"/>
+                        <h2 class="lecture-title">JavaScript Guide</h2>
+                        <div class="lecture-text">
+                            <div class="lecture-text-content">
+                                <p class="book-text-content">
+                                    by David Flanagan
+                                    <br>
+                                    <br>
+                                    Seventh edition
+                                    <br>
+                                    <br>
+                                    Published at 2020
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div class="flip-card-back">
                         <h2 style="margin-top: 65%">Price : $30.00</h2>
@@ -115,10 +121,201 @@
                     </div>
                 </div>
             </div>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <img
+                            src="./Assets/img/Book1-1.jpg"
+                            alt="react-book"
+                            style="height: 100%"
+                    />
+                    <div class="popup-text">
+                        <h1 style="width: fit-content">START READING NOW</h1>
+                        <h3>
+                            IMPORTANT-PLEASE READ THESE TERMS BEFORE BUYING THE BOOK
+                        </h3>
+                        <a class="close" href="#books">&times;</a>
+                        <div class="content">
+                            JavaScript is the programming language of the web and is used
+                            by more software developers today than any other programming
+                            language. For nearly 25 years this best seller has been the
+                            go-to guide for JavaScript programmers. The seventh edition is
+                            fully updated to cover the 2020 version of JavaScript, and new
+                            chapters cover classes, modules, iterators, generators,
+                            Promises, async/await, and metaprogramming. You'll find
+                            illuminating and engaging example code throughout. This book
+                            is for programmers who want to learn JavaScript and for web
+                            developers who want to take their understanding and mastery to
+                            the next level. It begins by explaining the JavaScript
+                            language itself, in detail, from the bottom up. It then builds
+                            on that foundation to cover the web platform and Node.js.
+                        </div>
+                        <button
+                                class="book-button"
+                                onclick="location.href='https://www.amazon.com/gp/product/1491952024/'"
+                        >
+                            BUY NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="book">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./Assets/img/Book2-2.jpg" alt="js" class="book-image"/>
+                        <h2 class="lecture-title">Road to React</h2>
+                        <div class="lecture-text">
+                            <div class="lecture-text-content">
+                                <p class="book-text-content">
+                                    by Robin Wieruch
+                                    <br>
+                                    <br>
+                                    Seventh edition
+                                    <br>
+                                    <br>
+                                    Published at 2020
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <h2 style="margin-top: 65%">Price : $29.99</h2>
+                        <button class="book-button" onclick="location.href='#popup2'">
+                            BUY
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="popup2" class="overlay">
+                <div class="popup">
+                    <img
+                            src="./Assets/img/Book2-1.jpg"
+                            alt="react-book"
+                            style="height: 100%"
+                    />
+                    <div class="popup-text">
+                        <h1 style="width: fit-content">START READING NOW</h1>
+                        <h3>
+                            IMPORTANT-PLEASE READ THESE TERMS BEFORE BUYING THE BOOK
+                        </h3>
+                        <a class="close" href="#books">&times;</a>
+                        <div class="content">
+                            In "The Road to React" you will learn about all the
+                            fundamentals of React.js with Hooks while building a
+                            full-blown React application step by step. While you create
+                            the React application, every chapter will introduce you to a
+                            new React key feature. However, there is more than only the
+                            fundamentals: The book dives into related topics (e.g. React
+                            with TypeScript, Testing, Performance Optimizations) and
+                            advanced feature implementations like client- and server-side
+                            searching. At the end of the book, you will have a fully
+                            working deployed React application.
+                        </div>
+                        <button
+                                class="book-button"
+                                onclick="location.href='https://www.amazon.com/Road-learn-React-pragmatic-React-js/dp/172004399X/ref=d_pd_sbs_sccl_2_3/130-5751593-0029724?pd_rd_w=m9yJh&content-id=amzn1.sym.3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=MN81G3T0MAX9FR9FAENV&pd_rd_wg=XsyuS&pd_rd_r=c3fff6b6-0e60-41bd-b038-2e16c81b5390&pd_rd_i=172004399X&psc=1'"
+                        >
+                            BUY NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="book">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./Assets/img/Book3-2.png" alt="js" class="book-image"/>
+                        <h2 class="lecture-title">Introducing Go</h2>
+                        <div class="lecture-text">
+                            <div class="lecture-text-content">
+                                <p class="book-text-content">
+                                    by Caleb Doxsey
+                                    <br>
+                                    <br>
+                                    First edition
+                                    <br>
+                                    <br>
+                                    Published at 2016
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <h2 style="margin-top: 65%">Price : 20,07 €</h2>
+                        <button class="book-button" onclick="location.href='#popup3'">
+                            BUY
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="popup3" class="overlay">
+                <div class="popup">
+                    <img src="./Assets/img/Book3-1.jpg" alt="react-book" style="height: 100%"
+                    />
+                    <div class="popup-text">
+                        <h1 style="width: fit-content">START READING NOW</h1>
+                        <h3>
+                            IMPORTANT-PLEASE READ THESE TERMS BEFORE BUYING THE BOOK
+                        </h3>
+                        <a class="close" href="#books">&times;</a>
+                        <div class="content">
+                            Perfect for beginners familiar with programming basics, this
+                            hands-on guide provides an easy introduction to Go, the
+                            general-purpose programming language from Google. Author Caleb
+                            Doxsey covers the languageâ s core features with step-by-step
+                            instructions and exercises in each chapter to help you
+                            practice what you learn. Go is a general-purpose programming
+                            language with a clean syntax and advanced features, including
+                            concurrency. This book provides the one-on-one support you
+                            need to get started with the language, with short, easily
+                            digestible chapters that build on one another. By the time you
+                            finish this book, not only will you be able to write real Go
+                            programs, you'll be ready to tackle advanced techniques.
+                        </div>
+                        <button
+                                class="book-button"
+                                onclick="location.href='https://www.amazon.fr/dp/1491941952?psc=1&th=1&linkCode=gs2&tag=vhpoet0ca-21'"
+                        >
+                            BUY NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!--Footer-->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-text">
+            <hr class="footer-line"/>
+            <a href="#" class="footer-link footer-items">Class info</a>
+            <a href="#" class="footer-link footer-items">Contact Us</a>
+            <a href="#" class="footer-link footer-items">Privacy Policy</a>
+            <a href="#" class="footer-link footer-items">Terms of Use</a>
+        </div>
+        <div class="footer-text">
+            <hr class="footer-line"/>
+            <p class="footer-text-content">
+                © 2021, Built by <a href="https://farshidnooshi.github.io/" class="footer-link">Farshid Nooshi</a> for
+                Internet Engineering course in Amirkabir University of Technology
+            </p>
+        </div>
+    </div>
+</footer>
 <!--Menu-->
-
+<button class="menu-icon" onclick="location.href = '#menu'">
+    <hr class="menu-hr"/>
+    <hr class="menu-hr"/>
+    <hr class="menu-hr"/>
+</button>
+<div id="menu" class="menu">
+    <a class="close" href="#">&times;</a>
+    <a class="links" style="font-size: 30px; margin-top: 50px" href="#">01 START</a>
+    <a class="links" style="font-size: 30px; margin-top: 50px" href="#lectures">02 COURSE LECTURES</a>
+    <a class="links" style="font-size: 30px; margin-top: 50px; margin-bottom: 50px" href="#Books">03 RELATED BOOKS</a>
+</div>
 </body>
 </html>
