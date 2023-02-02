@@ -1,23 +1,24 @@
-<div align="center">
-  <h1>In The Name Of GOD</h1>
-</div>
+# Internet Engineering Final Project
 
-# Internet Engineering Front Final Project
-
-This repository contains the files for my final front-end project for the Internet Engineering course at Amirkabir University of Technology.
+This repository contains the files for my final project for the Internet Engineering course at Amirkabir University of Technology. The website is also available to view at the following URL:
+[farshidnooshi.github.io/IE-Final-Front/](https://farshidnooshi.github.io/IE-Final-Front/)
 
 ## Contents
 - `index.html`: the main file for the project, containing the HTML structure and content
 - `style.css`: the stylesheet for the project, defining the visual appearance of the page
 
 ## Description
-The aim of the project is to create a simple, functional website using HTML and CSS. The website consists of a single page that provides information about the course and the project, including:
-- An overview of the Internet Engineering course
-- The purpose and goals of the project
-- Details about the files contained in the repository
+The aim of the project is to create a simple, functional website that provides information about various topics related to the Internet Engineering course, including:
+- HTTP
+- HTML & CSS
+- JavaScript
+- GoLang
+- Different books related to the course and its topics
+
+The website consists of a single page that presents this information in an easy-to-use and accessible format.
 
 ## Usage
-To view the website, simply open the `index.html` file in a web browser. The styles are applied via the `style.css` file. Note that the website is designed to be used on desktop and laptop devices, and may not display correctly on smaller screens such as smartphones or tablets.
+To view the website, simply open the `index.html` file in a web browser, or visit the URL listed above. The styles are applied via the `style.css` file. Note that the website is designed to be used on desktop and laptop devices, and may not display correctly on smaller screens such as smartphones or tablets.
 
 ## Limitations
 The current version of the website is a basic prototype, and as such there may be limitations in terms of functionality, design, and accessibility. Some possible areas for improvement in future versions include:
