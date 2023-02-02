@@ -4,7 +4,7 @@
 
 # Internet Engineering Front Final Project
 
-This repository contains the files for my final project for the Internet Engineering course at Amirkabir University of Technology.
+This repository contains the files for my final front-end project for the Internet Engineering course at Amirkabir University of Technology.
 
 ## Contents
 - `index.html`: the main file for the project, containing the HTML structure and content
